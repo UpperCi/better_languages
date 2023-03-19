@@ -72,7 +72,7 @@ fn handle_path(path: PathBuf) {
 					contents.as_str()).unwrap());
 				let mut new_path = path.clone();
 				new_path.set_extension("html");
-				fs::write(new_path, assemble_html(root));
+				fs::write(new_path, format!("{}\n", assemble_html(root)));
 			}
 		}
 	}
