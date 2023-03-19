@@ -3,8 +3,8 @@ Improving existing programming languages
 ## C_NL
 C macros redefining keywords in dutch.
 
-if -> indien
-float -> zweef
+if -> indien  
+float -> zweef  
 etc...
 
 ## JHTML
