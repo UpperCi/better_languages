@@ -1,15 +1,16 @@
 Improving existing programming languages
 
-=== C_NL ===
+## C_NL
 C macros redefining keywords in dutch.
 
 if -> indien
 float -> zweef
 etc...
 
-=== JHTML ===
+## JHTML
 Rust program to write webpages using JSON instead of XHTML.
 
+```json
 {"body": {
 	"p": {
 		"content": "hi world!",
@@ -17,6 +18,9 @@ Rust program to write webpages using JSON instead of XHTML.
 		}
 	}
 }
+```
 ->
+```html
 <html ><body ><p class="message">hi world!</p></body></html>
+```
 
