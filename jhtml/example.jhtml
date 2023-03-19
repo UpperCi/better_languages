@@ -1,0 +1,14 @@
+{
+	"body": {
+		"h1": {
+			"content": "hallo, wereld!"
+		},
+		"div": {
+			"class": "grey",
+			"id": "footer",
+			"p": {
+				"content": "Dani Verschoor"
+			}
+		}
+	}
+}
